@@ -1,7 +1,7 @@
 ---
 title: Incrementic Certs Platform
 subtitle: Serving certificates from our training and events
-image: /img/home-jumbotron.jpg
+image: img/incrementictraining.jpg
 blurb:
   heading: What's this for?
   text: >-
