@@ -5,8 +5,9 @@ image: img/incrementictraining.jpg
 blurb:
   heading: What's this for?
   text: >-
-    This is our certificate platform. We issue certificates on this platform for
-    persons who have participated in one of our workshops.
+    We issue certificates on this platform for persons who have participated in
+    one of our workshops. Use this to share with others on social platforms
+    about your achievement.
 intro:
   heading: How it works
   text: >-
