@@ -15,7 +15,7 @@ intro:
     provided URL and thus validate the authenticity of the certificate.
 products: []
 values:
-  heading: Our values
+  heading: Who we are
   text: >
     We are the idea testing and training service for teams embarking on new
     initiatives. If you need to equip your team with new skills for new
