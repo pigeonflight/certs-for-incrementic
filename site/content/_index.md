@@ -1,20 +1,29 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: Incrementic Certs Platform
+subtitle: Serving certificates from our training and events
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+  heading: What's this for?
+  text: >-
+    This is our certificate platform. We issue certificates on this platform for
+    persons who have participated in one of our workshops.
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+  heading: How it works
+  text: >-
+    When you are issued a certificate, it includes a unique URL. This URL is the
+    home of your certificate. Employers can visit your certificate at the
+    provided URL and thus validate the authenticity of the certificate.
+products: []
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+  heading: Who we are
+  text: >
+    We are the idea testing and training service for teams embarking on new
+    initiatives. If you need to equip your team with new skills for new
+    initiatives speak to us. Our services are built around rapidly learning and
+    reducing risk. 
+
+
+    We partner with fanatical learners and foster a culture of documentation,
+    and steady improvement.
 ---
 
