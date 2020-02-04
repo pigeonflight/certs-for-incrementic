@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <div class="mw6 center ph3 pv4">
+  {{if .Params.cert_url}}
   <script>
     const copyToClipboard = str => {
       const el = document.createElement('textarea');  // Create a <textarea> element
@@ -22,7 +23,8 @@
       }
     };
   </script>
-  <button onclick="copyToClipboard('hello')">Copy Cert URL</button>
+  <button onclick="copyToClipboard('{{.Params.cert_url}}')">Copy Cert URL</button>
+  {{ end }}
   <div class="cms mw6">
     {{ .Content }}
 
