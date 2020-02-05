@@ -3,16 +3,6 @@
 <div class="mw6 center ph3 pv4">
 
   <div class="cms mw6">
-    {{ .Content }}
-
-    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-  </div>
-  <h3 class="f2 lh-title b mb3">{{.Title}}</h3>
-  <div class="flex justify-between grey-3">
-    <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-  </div>
-  <div>
-    <p>{{ .Description }}</p>
     <h2>Share on your LinkedIn Profile</h2>
     <ol>
       {{if .Params.cert_url}}
@@ -61,6 +51,16 @@
       </li>
 
     </ol>
+
+    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+  </div>
+  <h3 class="f2 lh-title b mb3">{{.Title}}</h3>
+  <div class="flex justify-between grey-3">
+    <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+  </div>
+  <div>
+    <p>{{ .Description }}</p>
+
 
   </div>
 </div>
