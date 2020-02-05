@@ -3,9 +3,10 @@
 <div class="mw6 center ph3 pv4">
 
   <div class="cms mw6">
-    <h2>Share on your LinkedIn Profile</h2>
+
     <ol class="list-steps">
       {{if .Params.cert_url}}
+      <h5>Share on your LinkedIn Profile</h5>
       <script>
         const copyToClipboard = str => {
           const el = document.createElement('textarea');  // Create a <textarea> element
@@ -33,11 +34,35 @@
           font-weight: bold;
         }
 
+
+        ol.list-steps {
+          border: 1px solid #eee;
+          padding: 10px 20px;
+          border-radius: 20px;
+          background-color: #efefee;
+          font-size: 16px;
+        }
+
+        li.list-step::before {
+          content: counter(li);
+          color: #f1f1f1 !important;
+          border-radius: 50px;
+          background-color: #989898;
+          padding: 1px 8px;
+          display: inline-block;
+          margin-left: -1em
+        }
+
+
         .list-step img {
           margin: inherit;
           display: inline-block;
           margin-top: 16px;
           vertical-align: bottom;
+        }
+
+        .list-steps h5 {
+          color: #9c9c9c;
         }
       </style>
       <li class="list-step">
