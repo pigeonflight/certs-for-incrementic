@@ -37,8 +37,19 @@
           }
         };
       </script>
-      <button style="color:white;background-color:red;padding:10px 20px;border-radius:10px;"
+      <style>
+        .copied {
+          background-color: green;
+        }
+      </style>
+      <button id="copy-url" style="color:white;background-color:red;padding:10px 20px;border-radius:10px;"
         onclick="copyToClipboard('{{.Params.cert_url}}')">Copy your certifcate URL</button>
+      <script>
+        document.getElementById("copy-url").addEventListener("click", setClicked);
+        function setClicked() {
+          document.getElementById("copy-url").className = "copied";
+        }
+      </script>
       <li>
 
       </li>
