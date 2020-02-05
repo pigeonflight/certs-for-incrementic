@@ -33,7 +33,7 @@
           font-weight: bold;
         }
       </style>
-      <li class="list-step" class="list-step">
+      <li class="list-step">
         <button id="copy-url" style="color:white;background-color:red;padding:10px 20px;border-radius:10px;"
           onclick="copyToClipboard('{{.Params.cert_url}}')">Copy your certifcate URL</button>
         <script>
@@ -44,9 +44,9 @@
             ere_copy_button.innerHTML = "certificate URL copied to clipboard";
           }
         </script>
-      </li class="list-step">
+      </li>
       {{ end }}
-      <li>
+      <li class="list-step">
         <a href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME" rel="nofollow" target="_blank"><img
             src="https://download.linkedin.com/desktop/add2profile/buttons/en_US.png "
             alt="LinkedIn Add to Profile button"></a>
