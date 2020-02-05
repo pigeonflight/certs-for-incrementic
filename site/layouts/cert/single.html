@@ -30,6 +30,7 @@
       <style>
         .copied {
           background-color: green;
+          font-weight: bold;
         }
       </style>
       <button id="copy-url" style="color:white;background-color:red;padding:10px 20px;border-radius:10px;"
@@ -37,7 +38,9 @@
       <script>
         document.getElementById("copy-url").addEventListener("click", setClicked);
         function setClicked() {
-          document.getElementById("copy-url").className = "copied";
+          var ere_copy_button = document.getElementById("copy-url");
+          ere_copy_button.className = "copied";
+          ere_copy_button.innerHTML = "certificate URL copied to clipboard";
         }
       </script>
       <li>
