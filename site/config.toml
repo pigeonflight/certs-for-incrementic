@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "Incrementic Certificates"
 og_image = "/img/og-image.jpg"
 
 # RSS, categories and tags disabled for an easy start
