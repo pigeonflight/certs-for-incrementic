@@ -89,7 +89,7 @@
       </div>
     </ol>
 
-    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+    {{ if .Params.image }}<a href="{{ .Params.image }}"><img src="{{ .Params.image }}" alt="{{ .Title }}" /></a>{{ end }}
   </div>
   <h3 class="f2 lh-title b mb3">{{.Title}}</h3>
   <div class="flex justify-between grey-3">
