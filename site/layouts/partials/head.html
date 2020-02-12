@@ -27,7 +27,13 @@
 	<meta property="og:type" content="business.business">
 	<meta property="og:title" content="Incrementic Certificates">
 	<meta property="og:url" content="/">
+
+      {{if .Params.image}}
+        <meta property="og:image" content="https://certs.incrementic.com{{ .Params.image | relURL }}"/>
+	{{ else }}
 	<meta property="og:image" content="/img/og-image.jpg">
+	{{ end }}
+
 
 	{{ if .IsHome }}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
